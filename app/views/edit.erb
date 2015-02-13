@@ -1,0 +1,13 @@
+
+
+<form action='/allstudents/<%=@student.id%>' method="post">
+
+  <input type="hidden" name="_method" value="put">
+  <input type="hidden" name="student_id" value="<%=@student.id%>">
+  <input type="text" name="user[name]" value="<%=@student.name%>">
+  <input type="text" name="user[email]" value="<%=@student.email%>">
+  <input type="text" name="user[telephone]" value="<%=@student.telephone%>">
+
+
+ <input type ="submit" value="update">
+</form>

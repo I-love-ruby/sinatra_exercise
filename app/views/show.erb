@@ -1,0 +1,23 @@
+<h1> Student chosen. </h1>
+
+<p>Do you wanna update or erase this student from the table.</p>
+
+    <ul>
+      <li><%= @student.name %></li>
+     <li><%= @student.email %></li>
+     <li><%= @student.telephone %></li>
+    </ul>
+
+<form action='/allstudents' method="post">
+  <input type="hidden" name="_method" value="delete">
+  <input type="hidden" name="student_id" value="<%=@student.id%>">
+    <input type ="submit" value="delete">
+</form>
+<!--
+<form action='/allstudents' method="post">
+  <input type="hidden" name="_method" value="put">
+  <input type="hidden" name="student_id" value="<%=@student.id%>">
+    <input type ="submit" value="update">
+</form> -->
+
+<a href="/allstudents/<%=@student.id%>/edit">edit </a>

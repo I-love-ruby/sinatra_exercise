@@ -1,0 +1,5 @@
+Student.create(name: "rosa", email: "ekdemd@dkemdke.com", telephone: "4434566778")
+Student.create(name: "kim", email: "eewemd@dkemdke.com", telephone: "544566778")
+Student.create(name: "jay", email: "ekdeqqwd@dkemdke.com", telephone: "6734566778")
+Student.create(name: "mike", email: "ewemd@dkemdwdke.com", telephone: "1873451238")
+Student.create(name: "matt", email: "eqwmd@dkewdwke.com", telephone: "9754566778")
